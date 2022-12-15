@@ -1,0 +1,124 @@
+/* ************app division************* */
+
+
+
+.allApp{
+    height: 1000vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%  ;
+    grid-template-rows: 1% 99%  ;
+}
+
+.theUp{
+    display: flex;
+     background-color: rgb(37, 120, 164);
+     grid-column-start:1 ;
+     grid-column-end:4 ;
+     grid-row-start:1 ;
+     grid-row-end:2 ;
+ }
+ .theMain{
+     grid-column-start:2 ;
+     grid-column-end:3 ;
+     grid-row-start:2 ;
+     grid-row-end:3 ;
+ }
+ .side1{
+     grid-column-start:1 ;
+     grid-column-end:2 ;
+     grid-row-start:2 ;
+     grid-row-end:3 ;
+     background-color: rgb(37, 120, 164);
+ }
+ .side2{
+     grid-column-start:3 ;
+     grid-column-end:4 ;
+     grid-row-start:2 ;
+     grid-row-end:3 ;
+     background-color: rgb(37, 120, 164);
+ }
+
+/* ************app division************* */
+
+
+
+/* ************center************* */
+
+.inMain{
+    margin-top: 2%;
+}
+
+/* appInputs */
+.inputsEdit{
+    height: max-content;
+    width: 800px;
+    border: 3px solid rgb(255, 187, 0);
+    border-radius: 10%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+
+}
+.inputsSub{
+    height: max-content;
+    width: 800px;
+    border: 3px solid green;
+    border-radius: 10%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+
+}
+.textareas{
+    resize:none;
+    width: 90%;
+
+}
+.ids{
+    font-size: 30px;
+    text-align: center;
+}
+.endInputsBtn{
+    display: flex;
+    margin-left:30% ;
+
+}
+.inputsBtn{
+ margin-left: 10%;
+ width: 10vw;
+}
+.inputsBtn2{
+ margin-left: 44%;
+ width: 10vw;
+}
+
+.delets{
+    border: 3px solid ;
+    border-radius: 100%;
+}
+.headInput{
+    display: grid;
+    grid-template-columns: 90% 10% ;
+}
+/* appInputs */
+/* ************center************* */
+
+/* ************side*************** */
+.btnDiv{
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 0.75%;
+}
+.sideBtn{
+    width: 9.4%;
+    text-align: center;
+}
+
+/* ************side*************** */
+

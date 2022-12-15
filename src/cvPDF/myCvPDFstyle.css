@@ -1,0 +1,257 @@
+/*************************************************** KH ****************************************************/
+.MyPdf{
+    display: block;
+}
+
+/*********** pgae division *****************/
+
+
+#divToPrint{
+    margin: 0px;
+}
+
+.theTop{
+    text-align: center;
+}
+
+
+#divToPrint{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CVpage{
+    width: 9.8in;
+    height: 14.5in;
+  
+    display: grid;
+    grid-template-columns:  35% 63% 2% ;
+    grid-template-rows:  12% 3% 80% ;
+
+    
+}
+.sideColor{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgb(37, 120, 164);
+
+}
+.Kotert{
+    width: 90%;
+    height: 75%;
+    margin-top: 3%;
+    margin-left: 4%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 3px solid  rgb(37, 120, 164);
+    text-align:center;
+
+}
+.ParsonalInfo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(37, 120, 164);
+
+
+}
+.CenterInfo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5% ;
+    
+
+
+}
+.sideInfo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(37, 120, 164);
+
+}
+
+
+/*********** pgae division *****************/
+
+/* ***********kotert************************ */
+
+.myName{
+    font-size: 30px;
+    font-weight: bold ;
+    color: rgb(37, 120, 164);
+    margin: 1px ;
+    margin-bottom: 3px;
+
+}
+
+.summray{
+    font-size: 14px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+ 
+}
+
+/* ***********kotert************************ */
+
+ /* ***************ParsonalInfo*************** */
+
+.ParsonalInfoBox{
+    border: 1px solid white;
+    width: 90%;
+    margin-left: 4% ;
+    margin-top: 5% ;
+    color: white;
+}
+
+.personalInfo{
+    width: 90%;
+    margin-top:5px ;
+    margin-left: 8px;
+    font-size: 18px;
+ }
+
+ /* ***************ParsonalInfo*************** */
+
+ /* ***************CenterInfo*************** */
+ .mainInfo{
+    margin-top: 20px ;
+ }
+ .mainDiv{
+    margin-top: 35px;
+    padding: 0px;
+    border: 2.5px solid black;
+   border-top: none; 
+   border-left: none; 
+   border-right: none; 
+   font-size:28px ;
+ }
+
+.InfoFormat{
+    display: grid;
+    grid-template-columns:  25% 60% ;
+    grid-template-rows:  max-content max-content max-content ;
+    height: max-content;
+
+}
+.whatDiv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 20px;
+    font-weight: bold ;
+
+
+}
+.YearDiv{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size:18px ;
+    font-weight: bold ;
+    color: rgb(37, 120, 164);
+
+}
+.whereDiv{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-weight: bold ;
+    font-size:16px ;
+    margin-top: 1px;
+}
+
+.MoreAboutDiv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size:14px ;
+
+}
+
+ /* ***************CenterInfo*************** */
+ /* ***************sideInfo*************** */
+
+.sideDiv{
+    color: white;
+    margin-top: 15px;
+}
+.headSideDiv{
+    border: 2px solid rgb(255, 255, 255);
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+
+ }
+
+ .headSide{
+    width: 90%;
+    margin-left: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-top: none; 
+    border-left: none; 
+    border-right: none;
+    font-size: 23px;
+ 
+ }
+
+ 
+ .devSkills{
+    width: 90%;
+    margin-left: 8px;
+    font-size: 18px;
+
+ }
+
+ .languages{
+    width: 90%;
+    display: grid;
+    grid-template-columns:  50% 50% ; 
+ }
+ .TheLanguage{
+    margin-left: 15px;
+    font-size: 18px;
+
+ }
+ .TheRange{
+    margin-top: 3.5px;
+    background-color: transparent;
+    border: solid 1px green ;
+ }
+
+ .moreAboutMe{
+    width: 90%;
+    display: grid;
+    grid-template-columns:  60% 40%  ;
+    grid-template-rows: max-content max-content ;
+    margin-left: 15px; 
+ }
+ .whatM{
+    font-weight:600;
+    font-size: 18px;
+
+ }
+ .yearM{
+    font-weight:600;
+    font-size: 18px;
+
+ }
+
+
+ /* ***************sideInfo*************** */
