@@ -49,7 +49,7 @@ const CVtempPDF = (props) => {
                 <div className='CenterInfo'>
                     <h3 className='mainDiv'>Work Experience</h3>
                         {workExperiences.map(work=>
-                            <MainInfoPDF key={work} info={work}/>
+                            <MainInfoPDF key={work} info={work} style2={style2}/>
                         )}   
                     <h3 className='mainDiv'>Education</h3>
                         {educations.map(educat=>
@@ -57,7 +57,7 @@ const CVtempPDF = (props) => {
                         )} 
                     <h3 className='mainDiv'>Military Service</h3>
                         {militaryService.map(mil=>
-                            <MainInfoPDF key={mil} info={mil}/>
+                            <MainInfoPDF key={mil} info={mil} style2={style2}/>
                         )} 
                 </div>
                 <div style={style} className='sideInfo'>
